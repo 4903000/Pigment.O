@@ -86,6 +86,16 @@ class PigmentOExtension(Extension):
         action_key_3_plus = window.createAction(EXTENSION_ID+"_key_3_plus", "P. Key 3 Plus", "tools/scripts/Pigment.O Menu Key")
         action_key_4_minus = window.createAction(EXTENSION_ID+"_key_4_minus", "P. Key 4 Minus", "tools/scripts/Pigment.O Menu Key")
         action_key_4_plus = window.createAction(EXTENSION_ID+"_key_4_plus", "P. Key 4 Plus", "tools/scripts/Pigment.O Menu Key")
+        action_key_5_minus = window.createAction(EXTENSION_ID+"_key_5_minus", "P. Key 5 Minus", "tools/scripts/Pigment.O Menu Key")
+        action_key_5_plus = window.createAction(EXTENSION_ID+"_key_5_plus", "P. Key 5 Plus", "tools/scripts/Pigment.O Menu Key")
+        action_key_6_minus = window.createAction(EXTENSION_ID+"_key_6_minus", "P. Key 6 Minus", "tools/scripts/Pigment.O Menu Key")
+        action_key_6_plus = window.createAction(EXTENSION_ID+"_key_6_plus", "P. Key 6 Plus", "tools/scripts/Pigment.O Menu Key")
+        action_key_7_minus = window.createAction(EXTENSION_ID+"_key_7_minus", "P. Key 7 Minus", "tools/scripts/Pigment.O Menu Key")
+        action_key_7_plus = window.createAction(EXTENSION_ID+"_key_7_plus", "P. Key 7 Plus", "tools/scripts/Pigment.O Menu Key")
+        action_key_8_minus = window.createAction(EXTENSION_ID+"_key_8_minus", "P. Key 8 Minus", "tools/scripts/Pigment.O Menu Key")
+        action_key_8_plus = window.createAction(EXTENSION_ID+"_key_8_plus", "P. Key 8 Plus", "tools/scripts/Pigment.O Menu Key")
+        action_key_9_minus = window.createAction(EXTENSION_ID+"_key_9_minus", "P. Key 9 Minus", "tools/scripts/Pigment.O Menu Key")
+        action_key_9_plus = window.createAction(EXTENSION_ID+"_key_9_plus", "P. Key 9 Plus", "tools/scripts/Pigment.O Menu Key")
         # Connect with Trigger
         action_key_1_minus.triggered.connect(self.KEY_1_Minus)
         action_key_1_plus.triggered.connect(self.KEY_1_Plus)
@@ -95,6 +105,16 @@ class PigmentOExtension(Extension):
         action_key_3_plus.triggered.connect(self.KEY_3_Plus)
         action_key_4_minus.triggered.connect(self.KEY_4_Minus)
         action_key_4_plus.triggered.connect(self.KEY_4_Plus)
+        action_key_5_minus.triggered.connect(self.KEY_5_Minus)
+        action_key_5_plus.triggered.connect(self.KEY_5_Plus)
+        action_key_6_minus.triggered.connect(self.KEY_6_Minus)
+        action_key_6_plus.triggered.connect(self.KEY_6_Plus)
+        action_key_7_minus.triggered.connect(self.KEY_7_Minus)
+        action_key_7_plus.triggered.connect(self.KEY_7_Plus)
+        action_key_8_minus.triggered.connect(self.KEY_8_Minus)
+        action_key_8_plus.triggered.connect(self.KEY_8_Plus)
+        action_key_9_minus.triggered.connect(self.KEY_9_Minus)
+        action_key_9_plus.triggered.connect(self.KEY_9_Plus)
 
         #//
         #\\ Shortcut LOCKS #####################################################
@@ -165,6 +185,31 @@ class PigmentOExtension(Extension):
         self.SIGNAL_KEY.emit("K4 Minus")
     def KEY_4_Plus(self):
         self.SIGNAL_KEY.emit("K4 Plus")
+
+    def KEY_5_Minus(self):
+        self.SIGNAL_KEY.emit("K5 Minus")
+    def KEY_5_Plus(self):
+        self.SIGNAL_KEY.emit("K5 Plus")
+
+    def KEY_6_Minus(self):
+        self.SIGNAL_KEY.emit("K6 Minus")
+    def KEY_6_Plus(self):
+        self.SIGNAL_KEY.emit("K6 Plus")
+
+    def KEY_7_Minus(self):
+        self.SIGNAL_KEY.emit("K7 Minus")
+    def KEY_7_Plus(self):
+        self.SIGNAL_KEY.emit("K7 Plus")
+
+    def KEY_8_Minus(self):
+        self.SIGNAL_KEY.emit("K8 Minus")
+    def KEY_8_Plus(self):
+        self.SIGNAL_KEY.emit("K8 Plus")
+
+    def KEY_9_Minus(self):
+        self.SIGNAL_KEY.emit("K9 Minus")
+    def KEY_9_Plus(self):
+        self.SIGNAL_KEY.emit("K9 Plus")
 
     #//
     #\\ LOCK ###################################################################

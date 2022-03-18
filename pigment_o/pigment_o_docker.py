@@ -496,6 +496,11 @@ class PigmentO_Docker(DockWidget):
         self.dialog.key_2.currentTextChanged.connect(self.Menu_Key_2)
         self.dialog.key_3.currentTextChanged.connect(self.Menu_Key_3)
         self.dialog.key_4.currentTextChanged.connect(self.Menu_Key_4)
+        self.dialog.key_5.currentTextChanged.connect(self.Menu_Key_5)
+        self.dialog.key_6.currentTextChanged.connect(self.Menu_Key_6)
+        self.dialog.key_7.currentTextChanged.connect(self.Menu_Key_7)
+        self.dialog.key_8.currentTextChanged.connect(self.Menu_Key_8)
+        self.dialog.key_9.currentTextChanged.connect(self.Menu_Key_9)
         self.dialog.mix_index.currentTextChanged.connect(self.Menu_MIX)
         self.dialog.names_closest.clicked.connect(self.HEX_Closest)
         self.dialog.wheel_index.currentTextChanged.connect(self.Menu_Wheel)
@@ -20224,6 +20229,16 @@ class PigmentO_Docker(DockWidget):
         self.key_3 = self.dialog.key_3.currentText()
     def Menu_Key_4(self):
         self.key_4 = self.dialog.key_4.currentText()
+    def Menu_Key_5(self):
+        self.key_5 = self.dialog.key_5.currentText()
+    def Menu_Key_6(self):
+        self.key_6 = self.dialog.key_6.currentText()
+    def Menu_Key_7(self):
+        self.key_7 = self.dialog.key_7.currentText()
+    def Menu_Key_8(self):
+        self.key_8 = self.dialog.key_8.currentText()
+    def Menu_Key_9(self):
+        self.key_9 = self.dialog.key_9.currentText()
 
     #//
     #\\ Module Signals #########################################################
@@ -21709,6 +21724,1202 @@ class PigmentO_Docker(DockWidget):
                 self.Pigment_LCH_2_Plus()
             if self.key_4 == "LCH 3":
                 self.Pigment_LCH_3_Plus()
+
+        if SIGNAL_KEY == "K5 Minus":
+            # None
+            if self.key_5 == "KEY 5":
+                pass
+            # AAA
+            if self.key_5 == "A 1":
+                self.Pigment_AAA_1_Minus()
+            # RGB
+            if self.key_5 == "RGB 1":
+                self.Pigment_RGB_1_Minus()
+            if self.key_5 == "RGB 2":
+                self.Pigment_RGB_2_Minus()
+            if self.key_5 == "RGB 3":
+                self.Pigment_RGB_3_Minus()
+            # CMY
+            if self.key_5 == "CMY 1":
+                self.Pigment_CMY_1_Minus()
+            if self.key_5 == "CMY 2":
+                self.Pigment_CMY_2_Minus()
+            if self.key_5 == "CMY 3":
+                self.Pigment_CMY_3_Minus()
+            # CMYK
+            if self.key_5 == "CMYK 1":
+                self.Pigment_CMYK_1_Minus()
+            if self.key_5 == "CMYK 2":
+                self.Pigment_CMYK_2_Minus()
+            if self.key_5 == "CMYK 3":
+                self.Pigment_CMYK_3_Minus()
+            if self.key_5 == "CMYK 4":
+                self.Pigment_CMYK_4_Minus()
+            # RYB
+            if self.key_5 == "RYB 1":
+                self.Pigment_RYB_1_Minus()
+            if self.key_5 == "RYB 2":
+                self.Pigment_RYB_2_Minus()
+            if self.key_5 == "RYB 3":
+                self.Pigment_RYB_3_Minus()
+            # YUV
+            if self.key_5 == "YUV 1":
+                self.Pigment_YUV_1_Minus()
+            if self.key_5 == "YUV 2":
+                self.Pigment_YUV_2_Minus()
+            if self.key_5 == "YUV 3":
+                self.Pigment_YUV_3_Minus()
+            # KKK
+            if self.key_5 == "K 1":
+                self.Pigment_KKK_1_Minus()
+
+            # ARD
+            if self.key_5 == "ARD 1":
+                self.Pigment_ARD_1_Minus()
+            if self.key_5 == "ARD 2":
+                self.Pigment_ARD_2_Minus()
+            if self.key_5 == "ARD 3":
+                self.Pigment_ARD_3_Minus()
+            # HSV
+            if self.key_5 == "HSV 1":
+                self.Pigment_HSV_1_Minus()
+            if self.key_5 == "HSV 2":
+                self.Pigment_HSV_2_Minus()
+            if self.key_5 == "HSV 3":
+                self.Pigment_HSV_3_Minus()
+            # HSL
+            if self.key_5 == "HSL 1":
+                self.Pigment_HSL_1_Minus()
+            if self.key_5 == "HSL 2":
+                self.Pigment_HSL_2_Minus()
+            if self.key_5 == "HSL 3":
+                self.Pigment_HSL_3_Minus()
+            # HCY
+            if self.key_5 == "HCY 1":
+                self.Pigment_HCY_1_Minus()
+            if self.key_5 == "HCY 2":
+                self.Pigment_HCY_2_Minus()
+            if self.key_5 == "HCY 3":
+                self.Pigment_HCY_3_Minus()
+
+            # XYZ
+            if self.key_5 == "XYZ 1":
+                self.Pigment_XYZ_1_Minus()
+            if self.key_5 == "XYZ 2":
+                self.Pigment_XYZ_2_Minus()
+            if self.key_5 == "XYZ 3":
+                self.Pigment_XYZ_3_Minus()
+            # XYY
+            if self.key_5 == "XYY 1":
+                self.Pigment_XYY_1_Minus()
+            if self.key_5 == "XYY 2":
+                self.Pigment_XYY_2_Minus()
+            if self.key_5 == "XYY 3":
+                self.Pigment_XYY_3_Minus()
+            # LUV
+            if self.key_5 == "LUV 1":
+                self.Pigment_LUV_1_Minus()
+            if self.key_5 == "LUV 2":
+                self.Pigment_LUV_2_Minus()
+            if self.key_5 == "LUV 3":
+                self.Pigment_LUV_3_Minus()
+            # HLAB
+            if self.key_5 == "HLAB 1":
+                self.Pigment_HLAB_1_Minus()
+            if self.key_5 == "HLAB 2":
+                self.Pigment_HLAB_2_Minus()
+            if self.key_5 == "HLAB 3":
+                self.Pigment_HLAB_3_Minus()
+            # LAB
+            if self.key_5 == "LAB 1":
+                self.Pigment_LAB_1_Minus()
+            if self.key_5 == "LAB 2":
+                self.Pigment_LAB_2_Minus()
+            if self.key_5 == "LAB 3":
+                self.Pigment_LAB_3_Minus()
+            # LCH
+            if self.key_5 == "LCH 1":
+                self.Pigment_LCH_1_Minus()
+            if self.key_5 == "LCH 2":
+                self.Pigment_LCH_2_Minus()
+            if self.key_5 == "LCH 3":
+                self.Pigment_LCH_3_Minus()
+        if SIGNAL_KEY == "K5 Plus":
+            # None
+            if self.key_5 == "KEY 5":
+                pass
+            # AAA
+            if self.key_5 == "A 1":
+                self.Pigment_AAA_1_Plus()
+            # RGB
+            if self.key_5 == "RGB 1":
+                self.Pigment_RGB_1_Plus()
+            if self.key_5 == "RGB 2":
+                self.Pigment_RGB_2_Plus()
+            if self.key_5 == "RGB 3":
+                self.Pigment_RGB_3_Plus()
+            # CMY
+            if self.key_5 == "CMY 1":
+                self.Pigment_CMY_1_Plus()
+            if self.key_5 == "CMY 2":
+                self.Pigment_CMY_2_Plus()
+            if self.key_5 == "CMY 3":
+                self.Pigment_CMY_3_Plus()
+            # CMYK
+            if self.key_5 == "CMYK 1":
+                self.Pigment_CMYK_1_Plus()
+            if self.key_5 == "CMYK 2":
+                self.Pigment_CMYK_2_Plus()
+            if self.key_5 == "CMYK 3":
+                self.Pigment_CMYK_3_Plus()
+            if self.key_5 == "CMYK 4":
+                self.Pigment_CMYK_4_Plus()
+            # RYB
+            if self.key_5 == "RYB 1":
+                self.Pigment_RYB_1_Plus()
+            if self.key_5 == "RYB 2":
+                self.Pigment_RYB_2_Plus()
+            if self.key_5 == "RYB 3":
+                self.Pigment_RYB_3_Plus()
+            # YUV
+            if self.key_5 == "YUV 1":
+                self.Pigment_YUV_1_Plus()
+            if self.key_5 == "YUV 2":
+                self.Pigment_YUV_2_Plus()
+            if self.key_5 == "YUV 3":
+                self.Pigment_YUV_3_Plus()
+            # KKK
+            if self.key_5 == "K 1":
+                self.Pigment_KKK_1_Plus()
+
+            # ARD
+            if self.key_5 == "ARD 1":
+                self.Pigment_ARD_1_Plus()
+            if self.key_5 == "ARD 2":
+                self.Pigment_ARD_2_Plus()
+            if self.key_5 == "ARD 3":
+                self.Pigment_ARD_3_Plus()
+            # HSV
+            if self.key_5 == "HSV 1":
+                self.Pigment_HSV_1_Plus()
+            if self.key_5 == "HSV 2":
+                self.Pigment_HSV_2_Plus()
+            if self.key_5 == "HSV 3":
+                self.Pigment_HSV_3_Plus()
+            # HSL
+            if self.key_5 == "HSL 1":
+                self.Pigment_HSL_1_Plus()
+            if self.key_5 == "HSL 2":
+                self.Pigment_HSL_2_Plus()
+            if self.key_5 == "HSL 3":
+                self.Pigment_HSL_3_Plus()
+            # HCY
+            if self.key_5 == "HCY 1":
+                self.Pigment_HCY_1_Plus()
+            if self.key_5 == "HCY 2":
+                self.Pigment_HCY_2_Plus()
+            if self.key_5 == "HCY 3":
+                self.Pigment_HCY_3_Plus()
+
+            # XYZ
+            if self.key_5 == "XYZ 1":
+                self.Pigment_XYZ_1_Plus()
+            if self.key_5 == "XYZ 2":
+                self.Pigment_XYZ_2_Plus()
+            if self.key_5 == "XYZ 3":
+                self.Pigment_XYZ_3_Plus()
+            # XYY
+            if self.key_5 == "XYY 1":
+                self.Pigment_XYY_1_Plus()
+            if self.key_5 == "XYY 2":
+                self.Pigment_XYY_2_Plus()
+            if self.key_5 == "XYY 3":
+                self.Pigment_XYY_3_Plus()
+            # LUV
+            if self.key_5 == "LUV 1":
+                self.Pigment_LUV_1_Plus()
+            if self.key_5 == "LUV 2":
+                self.Pigment_LUV_2_Plus()
+            if self.key_5 == "LUV 3":
+                self.Pigment_LUV_3_Plus()
+            # HLAB
+            if self.key_5 == "HLAB 1":
+                self.Pigment_HLAB_1_Plus()
+            if self.key_5 == "HLAB 2":
+                self.Pigment_HLAB_2_Plus()
+            if self.key_5 == "HLAB 3":
+                self.Pigment_HLAB_3_Plus()
+            # LAB
+            if self.key_5 == "LAB 1":
+                self.Pigment_LAB_1_Plus()
+            if self.key_5 == "LAB 2":
+                self.Pigment_LAB_2_Plus()
+            if self.key_5 == "LAB 3":
+                self.Pigment_LAB_3_Plus()
+            # LCH
+            if self.key_5 == "LCH 1":
+                self.Pigment_LCH_1_Plus()
+            if self.key_5 == "LCH 2":
+                self.Pigment_LCH_2_Plus()
+            if self.key_5 == "LCH 3":
+                self.Pigment_LCH_3_Plus()
+
+        if SIGNAL_KEY == "K6 Minus":
+            # None
+            if self.key_6 == "KEY 6":
+                pass
+            # AAA
+            if self.key_6 == "A 1":
+                self.Pigment_AAA_1_Minus()
+            # RGB
+            if self.key_6 == "RGB 1":
+                self.Pigment_RGB_1_Minus()
+            if self.key_6 == "RGB 2":
+                self.Pigment_RGB_2_Minus()
+            if self.key_6 == "RGB 3":
+                self.Pigment_RGB_3_Minus()
+            # CMY
+            if self.key_6 == "CMY 1":
+                self.Pigment_CMY_1_Minus()
+            if self.key_6 == "CMY 2":
+                self.Pigment_CMY_2_Minus()
+            if self.key_6 == "CMY 3":
+                self.Pigment_CMY_3_Minus()
+            # CMYK
+            if self.key_6 == "CMYK 1":
+                self.Pigment_CMYK_1_Minus()
+            if self.key_6 == "CMYK 2":
+                self.Pigment_CMYK_2_Minus()
+            if self.key_6 == "CMYK 3":
+                self.Pigment_CMYK_3_Minus()
+            if self.key_6 == "CMYK 4":
+                self.Pigment_CMYK_4_Minus()
+            # RYB
+            if self.key_6 == "RYB 1":
+                self.Pigment_RYB_1_Minus()
+            if self.key_6 == "RYB 2":
+                self.Pigment_RYB_2_Minus()
+            if self.key_6 == "RYB 3":
+                self.Pigment_RYB_3_Minus()
+            # YUV
+            if self.key_6 == "YUV 1":
+                self.Pigment_YUV_1_Minus()
+            if self.key_6 == "YUV 2":
+                self.Pigment_YUV_2_Minus()
+            if self.key_6 == "YUV 3":
+                self.Pigment_YUV_3_Minus()
+            # KKK
+            if self.key_6 == "K 1":
+                self.Pigment_KKK_1_Minus()
+
+            # ARD
+            if self.key_6 == "ARD 1":
+                self.Pigment_ARD_1_Minus()
+            if self.key_6 == "ARD 2":
+                self.Pigment_ARD_2_Minus()
+            if self.key_6 == "ARD 3":
+                self.Pigment_ARD_3_Minus()
+            # HSV
+            if self.key_6 == "HSV 1":
+                self.Pigment_HSV_1_Minus()
+            if self.key_6 == "HSV 2":
+                self.Pigment_HSV_2_Minus()
+            if self.key_6 == "HSV 3":
+                self.Pigment_HSV_3_Minus()
+            # HSL
+            if self.key_6 == "HSL 1":
+                self.Pigment_HSL_1_Minus()
+            if self.key_6 == "HSL 2":
+                self.Pigment_HSL_2_Minus()
+            if self.key_6 == "HSL 3":
+                self.Pigment_HSL_3_Minus()
+            # HCY
+            if self.key_6 == "HCY 1":
+                self.Pigment_HCY_1_Minus()
+            if self.key_6 == "HCY 2":
+                self.Pigment_HCY_2_Minus()
+            if self.key_6 == "HCY 3":
+                self.Pigment_HCY_3_Minus()
+
+            # XYZ
+            if self.key_6 == "XYZ 1":
+                self.Pigment_XYZ_1_Minus()
+            if self.key_6 == "XYZ 2":
+                self.Pigment_XYZ_2_Minus()
+            if self.key_6 == "XYZ 3":
+                self.Pigment_XYZ_3_Minus()
+            # XYY
+            if self.key_6 == "XYY 1":
+                self.Pigment_XYY_1_Minus()
+            if self.key_6 == "XYY 2":
+                self.Pigment_XYY_2_Minus()
+            if self.key_6 == "XYY 3":
+                self.Pigment_XYY_3_Minus()
+            # LUV
+            if self.key_6 == "LUV 1":
+                self.Pigment_LUV_1_Minus()
+            if self.key_6 == "LUV 2":
+                self.Pigment_LUV_2_Minus()
+            if self.key_6 == "LUV 3":
+                self.Pigment_LUV_3_Minus()
+            # HLAB
+            if self.key_6 == "HLAB 1":
+                self.Pigment_HLAB_1_Minus()
+            if self.key_6 == "HLAB 2":
+                self.Pigment_HLAB_2_Minus()
+            if self.key_6 == "HLAB 3":
+                self.Pigment_HLAB_3_Minus()
+            # LAB
+            if self.key_6 == "LAB 1":
+                self.Pigment_LAB_1_Minus()
+            if self.key_6 == "LAB 2":
+                self.Pigment_LAB_2_Minus()
+            if self.key_6 == "LAB 3":
+                self.Pigment_LAB_3_Minus()
+            # LCH
+            if self.key_6 == "LCH 1":
+                self.Pigment_LCH_1_Minus()
+            if self.key_6 == "LCH 2":
+                self.Pigment_LCH_2_Minus()
+            if self.key_6 == "LCH 3":
+                self.Pigment_LCH_3_Minus()
+        if SIGNAL_KEY == "K6 Plus":
+            # None
+            if self.key_6 == "KEY 6":
+                pass
+            # AAA
+            if self.key_6 == "A 1":
+                self.Pigment_AAA_1_Plus()
+            # RGB
+            if self.key_6 == "RGB 1":
+                self.Pigment_RGB_1_Plus()
+            if self.key_6 == "RGB 2":
+                self.Pigment_RGB_2_Plus()
+            if self.key_6 == "RGB 3":
+                self.Pigment_RGB_3_Plus()
+            # CMY
+            if self.key_6 == "CMY 1":
+                self.Pigment_CMY_1_Plus()
+            if self.key_6 == "CMY 2":
+                self.Pigment_CMY_2_Plus()
+            if self.key_6 == "CMY 3":
+                self.Pigment_CMY_3_Plus()
+            # CMYK
+            if self.key_6 == "CMYK 1":
+                self.Pigment_CMYK_1_Plus()
+            if self.key_6 == "CMYK 2":
+                self.Pigment_CMYK_2_Plus()
+            if self.key_6 == "CMYK 3":
+                self.Pigment_CMYK_3_Plus()
+            if self.key_6 == "CMYK 4":
+                self.Pigment_CMYK_4_Plus()
+            # RYB
+            if self.key_6 == "RYB 1":
+                self.Pigment_RYB_1_Plus()
+            if self.key_6 == "RYB 2":
+                self.Pigment_RYB_2_Plus()
+            if self.key_6 == "RYB 3":
+                self.Pigment_RYB_3_Plus()
+            # YUV
+            if self.key_6 == "YUV 1":
+                self.Pigment_YUV_1_Plus()
+            if self.key_6 == "YUV 2":
+                self.Pigment_YUV_2_Plus()
+            if self.key_6 == "YUV 3":
+                self.Pigment_YUV_3_Plus()
+            # KKK
+            if self.key_6 == "K 1":
+                self.Pigment_KKK_1_Plus()
+
+            # ARD
+            if self.key_6 == "ARD 1":
+                self.Pigment_ARD_1_Plus()
+            if self.key_6 == "ARD 2":
+                self.Pigment_ARD_2_Plus()
+            if self.key_6 == "ARD 3":
+                self.Pigment_ARD_3_Plus()
+            # HSV
+            if self.key_6 == "HSV 1":
+                self.Pigment_HSV_1_Plus()
+            if self.key_6 == "HSV 2":
+                self.Pigment_HSV_2_Plus()
+            if self.key_6 == "HSV 3":
+                self.Pigment_HSV_3_Plus()
+            # HSL
+            if self.key_6 == "HSL 1":
+                self.Pigment_HSL_1_Plus()
+            if self.key_6 == "HSL 2":
+                self.Pigment_HSL_2_Plus()
+            if self.key_6 == "HSL 3":
+                self.Pigment_HSL_3_Plus()
+            # HCY
+            if self.key_6 == "HCY 1":
+                self.Pigment_HCY_1_Plus()
+            if self.key_6 == "HCY 2":
+                self.Pigment_HCY_2_Plus()
+            if self.key_6 == "HCY 3":
+                self.Pigment_HCY_3_Plus()
+
+            # XYZ
+            if self.key_6 == "XYZ 1":
+                self.Pigment_XYZ_1_Plus()
+            if self.key_6 == "XYZ 2":
+                self.Pigment_XYZ_2_Plus()
+            if self.key_6 == "XYZ 3":
+                self.Pigment_XYZ_3_Plus()
+            # XYY
+            if self.key_6 == "XYY 1":
+                self.Pigment_XYY_1_Plus()
+            if self.key_6 == "XYY 2":
+                self.Pigment_XYY_2_Plus()
+            if self.key_6 == "XYY 3":
+                self.Pigment_XYY_3_Plus()
+            # LUV
+            if self.key_6 == "LUV 1":
+                self.Pigment_LUV_1_Plus()
+            if self.key_6 == "LUV 2":
+                self.Pigment_LUV_2_Plus()
+            if self.key_6 == "LUV 3":
+                self.Pigment_LUV_3_Plus()
+            # HLAB
+            if self.key_6 == "HLAB 1":
+                self.Pigment_HLAB_1_Plus()
+            if self.key_6 == "HLAB 2":
+                self.Pigment_HLAB_2_Plus()
+            if self.key_6 == "HLAB 3":
+                self.Pigment_HLAB_3_Plus()
+            # LAB
+            if self.key_6 == "LAB 1":
+                self.Pigment_LAB_1_Plus()
+            if self.key_6 == "LAB 2":
+                self.Pigment_LAB_2_Plus()
+            if self.key_6 == "LAB 3":
+                self.Pigment_LAB_3_Plus()
+            # LCH
+            if self.key_6 == "LCH 1":
+                self.Pigment_LCH_1_Plus()
+            if self.key_6 == "LCH 2":
+                self.Pigment_LCH_2_Plus()
+            if self.key_6 == "LCH 3":
+                self.Pigment_LCH_3_Plus()
+
+        if SIGNAL_KEY == "K7 Minus":
+            # None
+            if self.key_7 == "KEY 7":
+                pass
+            # AAA
+            if self.key_7 == "A 1":
+                self.Pigment_AAA_1_Minus()
+            # RGB
+            if self.key_7 == "RGB 1":
+                self.Pigment_RGB_1_Minus()
+            if self.key_7 == "RGB 2":
+                self.Pigment_RGB_2_Minus()
+            if self.key_7 == "RGB 3":
+                self.Pigment_RGB_3_Minus()
+            # CMY
+            if self.key_7 == "CMY 1":
+                self.Pigment_CMY_1_Minus()
+            if self.key_7 == "CMY 2":
+                self.Pigment_CMY_2_Minus()
+            if self.key_7 == "CMY 3":
+                self.Pigment_CMY_3_Minus()
+            # CMYK
+            if self.key_7 == "CMYK 1":
+                self.Pigment_CMYK_1_Minus()
+            if self.key_7 == "CMYK 2":
+                self.Pigment_CMYK_2_Minus()
+            if self.key_7 == "CMYK 3":
+                self.Pigment_CMYK_3_Minus()
+            if self.key_7 == "CMYK 4":
+                self.Pigment_CMYK_4_Minus()
+            # RYB
+            if self.key_7 == "RYB 1":
+                self.Pigment_RYB_1_Minus()
+            if self.key_7 == "RYB 2":
+                self.Pigment_RYB_2_Minus()
+            if self.key_7 == "RYB 3":
+                self.Pigment_RYB_3_Minus()
+            # YUV
+            if self.key_7 == "YUV 1":
+                self.Pigment_YUV_1_Minus()
+            if self.key_7 == "YUV 2":
+                self.Pigment_YUV_2_Minus()
+            if self.key_7 == "YUV 3":
+                self.Pigment_YUV_3_Minus()
+            # KKK
+            if self.key_7 == "K 1":
+                self.Pigment_KKK_1_Minus()
+
+            # ARD
+            if self.key_7 == "ARD 1":
+                self.Pigment_ARD_1_Minus()
+            if self.key_7 == "ARD 2":
+                self.Pigment_ARD_2_Minus()
+            if self.key_7 == "ARD 3":
+                self.Pigment_ARD_3_Minus()
+            # HSV
+            if self.key_7 == "HSV 1":
+                self.Pigment_HSV_1_Minus()
+            if self.key_7 == "HSV 2":
+                self.Pigment_HSV_2_Minus()
+            if self.key_7 == "HSV 3":
+                self.Pigment_HSV_3_Minus()
+            # HSL
+            if self.key_7 == "HSL 1":
+                self.Pigment_HSL_1_Minus()
+            if self.key_7 == "HSL 2":
+                self.Pigment_HSL_2_Minus()
+            if self.key_7 == "HSL 3":
+                self.Pigment_HSL_3_Minus()
+            # HCY
+            if self.key_7 == "HCY 1":
+                self.Pigment_HCY_1_Minus()
+            if self.key_7 == "HCY 2":
+                self.Pigment_HCY_2_Minus()
+            if self.key_7 == "HCY 3":
+                self.Pigment_HCY_3_Minus()
+
+            # XYZ
+            if self.key_7 == "XYZ 1":
+                self.Pigment_XYZ_1_Minus()
+            if self.key_7 == "XYZ 2":
+                self.Pigment_XYZ_2_Minus()
+            if self.key_7 == "XYZ 3":
+                self.Pigment_XYZ_3_Minus()
+            # XYY
+            if self.key_7 == "XYY 1":
+                self.Pigment_XYY_1_Minus()
+            if self.key_7 == "XYY 2":
+                self.Pigment_XYY_2_Minus()
+            if self.key_7 == "XYY 3":
+                self.Pigment_XYY_3_Minus()
+            # LUV
+            if self.key_7 == "LUV 1":
+                self.Pigment_LUV_1_Minus()
+            if self.key_7 == "LUV 2":
+                self.Pigment_LUV_2_Minus()
+            if self.key_7 == "LUV 3":
+                self.Pigment_LUV_3_Minus()
+            # HLAB
+            if self.key_7 == "HLAB 1":
+                self.Pigment_HLAB_1_Minus()
+            if self.key_7 == "HLAB 2":
+                self.Pigment_HLAB_2_Minus()
+            if self.key_7 == "HLAB 3":
+                self.Pigment_HLAB_3_Minus()
+            # LAB
+            if self.key_7 == "LAB 1":
+                self.Pigment_LAB_1_Minus()
+            if self.key_7 == "LAB 2":
+                self.Pigment_LAB_2_Minus()
+            if self.key_7 == "LAB 3":
+                self.Pigment_LAB_3_Minus()
+            # LCH
+            if self.key_7 == "LCH 1":
+                self.Pigment_LCH_1_Minus()
+            if self.key_7 == "LCH 2":
+                self.Pigment_LCH_2_Minus()
+            if self.key_7 == "LCH 3":
+                self.Pigment_LCH_3_Minus()
+        if SIGNAL_KEY == "K7 Plus":
+            # None
+            if self.key_7 == "KEY 7":
+                pass
+            # AAA
+            if self.key_7 == "A 1":
+                self.Pigment_AAA_1_Plus()
+            # RGB
+            if self.key_7 == "RGB 1":
+                self.Pigment_RGB_1_Plus()
+            if self.key_7 == "RGB 2":
+                self.Pigment_RGB_2_Plus()
+            if self.key_7 == "RGB 3":
+                self.Pigment_RGB_3_Plus()
+            # CMY
+            if self.key_7 == "CMY 1":
+                self.Pigment_CMY_1_Plus()
+            if self.key_7 == "CMY 2":
+                self.Pigment_CMY_2_Plus()
+            if self.key_7 == "CMY 3":
+                self.Pigment_CMY_3_Plus()
+            # CMYK
+            if self.key_7 == "CMYK 1":
+                self.Pigment_CMYK_1_Plus()
+            if self.key_7 == "CMYK 2":
+                self.Pigment_CMYK_2_Plus()
+            if self.key_7 == "CMYK 3":
+                self.Pigment_CMYK_3_Plus()
+            if self.key_7 == "CMYK 4":
+                self.Pigment_CMYK_4_Plus()
+            # RYB
+            if self.key_7 == "RYB 1":
+                self.Pigment_RYB_1_Plus()
+            if self.key_7 == "RYB 2":
+                self.Pigment_RYB_2_Plus()
+            if self.key_7 == "RYB 3":
+                self.Pigment_RYB_3_Plus()
+            # YUV
+            if self.key_7 == "YUV 1":
+                self.Pigment_YUV_1_Plus()
+            if self.key_7 == "YUV 2":
+                self.Pigment_YUV_2_Plus()
+            if self.key_7 == "YUV 3":
+                self.Pigment_YUV_3_Plus()
+            # KKK
+            if self.key_7 == "K 1":
+                self.Pigment_KKK_1_Plus()
+
+            # ARD
+            if self.key_7 == "ARD 1":
+                self.Pigment_ARD_1_Plus()
+            if self.key_7 == "ARD 2":
+                self.Pigment_ARD_2_Plus()
+            if self.key_7 == "ARD 3":
+                self.Pigment_ARD_3_Plus()
+            # HSV
+            if self.key_7 == "HSV 1":
+                self.Pigment_HSV_1_Plus()
+            if self.key_7 == "HSV 2":
+                self.Pigment_HSV_2_Plus()
+            if self.key_7 == "HSV 3":
+                self.Pigment_HSV_3_Plus()
+            # HSL
+            if self.key_7 == "HSL 1":
+                self.Pigment_HSL_1_Plus()
+            if self.key_7 == "HSL 2":
+                self.Pigment_HSL_2_Plus()
+            if self.key_7 == "HSL 3":
+                self.Pigment_HSL_3_Plus()
+            # HCY
+            if self.key_7 == "HCY 1":
+                self.Pigment_HCY_1_Plus()
+            if self.key_7 == "HCY 2":
+                self.Pigment_HCY_2_Plus()
+            if self.key_7 == "HCY 3":
+                self.Pigment_HCY_3_Plus()
+
+            # XYZ
+            if self.key_7 == "XYZ 1":
+                self.Pigment_XYZ_1_Plus()
+            if self.key_7 == "XYZ 2":
+                self.Pigment_XYZ_2_Plus()
+            if self.key_7 == "XYZ 3":
+                self.Pigment_XYZ_3_Plus()
+            # XYY
+            if self.key_7 == "XYY 1":
+                self.Pigment_XYY_1_Plus()
+            if self.key_7 == "XYY 2":
+                self.Pigment_XYY_2_Plus()
+            if self.key_7 == "XYY 3":
+                self.Pigment_XYY_3_Plus()
+            # LUV
+            if self.key_7 == "LUV 1":
+                self.Pigment_LUV_1_Plus()
+            if self.key_7 == "LUV 2":
+                self.Pigment_LUV_2_Plus()
+            if self.key_7 == "LUV 3":
+                self.Pigment_LUV_3_Plus()
+            # HLAB
+            if self.key_7 == "HLAB 1":
+                self.Pigment_HLAB_1_Plus()
+            if self.key_7 == "HLAB 2":
+                self.Pigment_HLAB_2_Plus()
+            if self.key_7 == "HLAB 3":
+                self.Pigment_HLAB_3_Plus()
+            # LAB
+            if self.key_7 == "LAB 1":
+                self.Pigment_LAB_1_Plus()
+            if self.key_7 == "LAB 2":
+                self.Pigment_LAB_2_Plus()
+            if self.key_7 == "LAB 3":
+                self.Pigment_LAB_3_Plus()
+            # LCH
+            if self.key_7 == "LCH 1":
+                self.Pigment_LCH_1_Plus()
+            if self.key_7 == "LCH 2":
+                self.Pigment_LCH_2_Plus()
+            if self.key_7 == "LCH 3":
+                self.Pigment_LCH_3_Plus()
+
+        if SIGNAL_KEY == "K8 Minus":
+            # None
+            if self.key_8 == "KEY 8":
+                pass
+            # AAA
+            if self.key_8 == "A 1":
+                self.Pigment_AAA_1_Minus()
+            # RGB
+            if self.key_8 == "RGB 1":
+                self.Pigment_RGB_1_Minus()
+            if self.key_8 == "RGB 2":
+                self.Pigment_RGB_2_Minus()
+            if self.key_8 == "RGB 3":
+                self.Pigment_RGB_3_Minus()
+            # CMY
+            if self.key_8 == "CMY 1":
+                self.Pigment_CMY_1_Minus()
+            if self.key_8 == "CMY 2":
+                self.Pigment_CMY_2_Minus()
+            if self.key_8 == "CMY 3":
+                self.Pigment_CMY_3_Minus()
+            # CMYK
+            if self.key_8 == "CMYK 1":
+                self.Pigment_CMYK_1_Minus()
+            if self.key_8 == "CMYK 2":
+                self.Pigment_CMYK_2_Minus()
+            if self.key_8 == "CMYK 3":
+                self.Pigment_CMYK_3_Minus()
+            if self.key_8 == "CMYK 4":
+                self.Pigment_CMYK_4_Minus()
+            # RYB
+            if self.key_8 == "RYB 1":
+                self.Pigment_RYB_1_Minus()
+            if self.key_8 == "RYB 2":
+                self.Pigment_RYB_2_Minus()
+            if self.key_8 == "RYB 3":
+                self.Pigment_RYB_3_Minus()
+            # YUV
+            if self.key_8 == "YUV 1":
+                self.Pigment_YUV_1_Minus()
+            if self.key_8 == "YUV 2":
+                self.Pigment_YUV_2_Minus()
+            if self.key_8 == "YUV 3":
+                self.Pigment_YUV_3_Minus()
+            # KKK
+            if self.key_8 == "K 1":
+                self.Pigment_KKK_1_Minus()
+
+            # ARD
+            if self.key_8 == "ARD 1":
+                self.Pigment_ARD_1_Minus()
+            if self.key_8 == "ARD 2":
+                self.Pigment_ARD_2_Minus()
+            if self.key_8 == "ARD 3":
+                self.Pigment_ARD_3_Minus()
+            # HSV
+            if self.key_8 == "HSV 1":
+                self.Pigment_HSV_1_Minus()
+            if self.key_8 == "HSV 2":
+                self.Pigment_HSV_2_Minus()
+            if self.key_8 == "HSV 3":
+                self.Pigment_HSV_3_Minus()
+            # HSL
+            if self.key_8 == "HSL 1":
+                self.Pigment_HSL_1_Minus()
+            if self.key_8 == "HSL 2":
+                self.Pigment_HSL_2_Minus()
+            if self.key_8 == "HSL 3":
+                self.Pigment_HSL_3_Minus()
+            # HCY
+            if self.key_8 == "HCY 1":
+                self.Pigment_HCY_1_Minus()
+            if self.key_8 == "HCY 2":
+                self.Pigment_HCY_2_Minus()
+            if self.key_8 == "HCY 3":
+                self.Pigment_HCY_3_Minus()
+
+            # XYZ
+            if self.key_8 == "XYZ 1":
+                self.Pigment_XYZ_1_Minus()
+            if self.key_8 == "XYZ 2":
+                self.Pigment_XYZ_2_Minus()
+            if self.key_8 == "XYZ 3":
+                self.Pigment_XYZ_3_Minus()
+            # XYY
+            if self.key_8 == "XYY 1":
+                self.Pigment_XYY_1_Minus()
+            if self.key_8 == "XYY 2":
+                self.Pigment_XYY_2_Minus()
+            if self.key_8 == "XYY 3":
+                self.Pigment_XYY_3_Minus()
+            # LUV
+            if self.key_8 == "LUV 1":
+                self.Pigment_LUV_1_Minus()
+            if self.key_8 == "LUV 2":
+                self.Pigment_LUV_2_Minus()
+            if self.key_8 == "LUV 3":
+                self.Pigment_LUV_3_Minus()
+            # HLAB
+            if self.key_8 == "HLAB 1":
+                self.Pigment_HLAB_1_Minus()
+            if self.key_8 == "HLAB 2":
+                self.Pigment_HLAB_2_Minus()
+            if self.key_8 == "HLAB 3":
+                self.Pigment_HLAB_3_Minus()
+            # LAB
+            if self.key_8 == "LAB 1":
+                self.Pigment_LAB_1_Minus()
+            if self.key_8 == "LAB 2":
+                self.Pigment_LAB_2_Minus()
+            if self.key_8 == "LAB 3":
+                self.Pigment_LAB_3_Minus()
+            # LCH
+            if self.key_8 == "LCH 1":
+                self.Pigment_LCH_1_Minus()
+            if self.key_8 == "LCH 2":
+                self.Pigment_LCH_2_Minus()
+            if self.key_8 == "LCH 3":
+                self.Pigment_LCH_3_Minus()
+        if SIGNAL_KEY == "K8 Plus":
+            # None
+            if self.key_8 == "KEY 8":
+                pass
+            # AAA
+            if self.key_8 == "A 1":
+                self.Pigment_AAA_1_Plus()
+            # RGB
+            if self.key_8 == "RGB 1":
+                self.Pigment_RGB_1_Plus()
+            if self.key_8 == "RGB 2":
+                self.Pigment_RGB_2_Plus()
+            if self.key_8 == "RGB 3":
+                self.Pigment_RGB_3_Plus()
+            # CMY
+            if self.key_8 == "CMY 1":
+                self.Pigment_CMY_1_Plus()
+            if self.key_8 == "CMY 2":
+                self.Pigment_CMY_2_Plus()
+            if self.key_8 == "CMY 3":
+                self.Pigment_CMY_3_Plus()
+            # CMYK
+            if self.key_8 == "CMYK 1":
+                self.Pigment_CMYK_1_Plus()
+            if self.key_8 == "CMYK 2":
+                self.Pigment_CMYK_2_Plus()
+            if self.key_8 == "CMYK 3":
+                self.Pigment_CMYK_3_Plus()
+            if self.key_8 == "CMYK 4":
+                self.Pigment_CMYK_4_Plus()
+            # RYB
+            if self.key_8 == "RYB 1":
+                self.Pigment_RYB_1_Plus()
+            if self.key_8 == "RYB 2":
+                self.Pigment_RYB_2_Plus()
+            if self.key_8 == "RYB 3":
+                self.Pigment_RYB_3_Plus()
+            # YUV
+            if self.key_8 == "YUV 1":
+                self.Pigment_YUV_1_Plus()
+            if self.key_8 == "YUV 2":
+                self.Pigment_YUV_2_Plus()
+            if self.key_8 == "YUV 3":
+                self.Pigment_YUV_3_Plus()
+            # KKK
+            if self.key_8 == "K 1":
+                self.Pigment_KKK_1_Plus()
+
+            # ARD
+            if self.key_8 == "ARD 1":
+                self.Pigment_ARD_1_Plus()
+            if self.key_8 == "ARD 2":
+                self.Pigment_ARD_2_Plus()
+            if self.key_8 == "ARD 3":
+                self.Pigment_ARD_3_Plus()
+            # HSV
+            if self.key_8 == "HSV 1":
+                self.Pigment_HSV_1_Plus()
+            if self.key_8 == "HSV 2":
+                self.Pigment_HSV_2_Plus()
+            if self.key_8 == "HSV 3":
+                self.Pigment_HSV_3_Plus()
+            # HSL
+            if self.key_8 == "HSL 1":
+                self.Pigment_HSL_1_Plus()
+            if self.key_8 == "HSL 2":
+                self.Pigment_HSL_2_Plus()
+            if self.key_8 == "HSL 3":
+                self.Pigment_HSL_3_Plus()
+            # HCY
+            if self.key_8 == "HCY 1":
+                self.Pigment_HCY_1_Plus()
+            if self.key_8 == "HCY 2":
+                self.Pigment_HCY_2_Plus()
+            if self.key_8 == "HCY 3":
+                self.Pigment_HCY_3_Plus()
+
+            # XYZ
+            if self.key_8 == "XYZ 1":
+                self.Pigment_XYZ_1_Plus()
+            if self.key_8 == "XYZ 2":
+                self.Pigment_XYZ_2_Plus()
+            if self.key_8 == "XYZ 3":
+                self.Pigment_XYZ_3_Plus()
+            # XYY
+            if self.key_8 == "XYY 1":
+                self.Pigment_XYY_1_Plus()
+            if self.key_8 == "XYY 2":
+                self.Pigment_XYY_2_Plus()
+            if self.key_8 == "XYY 3":
+                self.Pigment_XYY_3_Plus()
+            # LUV
+            if self.key_8 == "LUV 1":
+                self.Pigment_LUV_1_Plus()
+            if self.key_8 == "LUV 2":
+                self.Pigment_LUV_2_Plus()
+            if self.key_8 == "LUV 3":
+                self.Pigment_LUV_3_Plus()
+            # HLAB
+            if self.key_8 == "HLAB 1":
+                self.Pigment_HLAB_1_Plus()
+            if self.key_8 == "HLAB 2":
+                self.Pigment_HLAB_2_Plus()
+            if self.key_8 == "HLAB 3":
+                self.Pigment_HLAB_3_Plus()
+            # LAB
+            if self.key_8 == "LAB 1":
+                self.Pigment_LAB_1_Plus()
+            if self.key_8 == "LAB 2":
+                self.Pigment_LAB_2_Plus()
+            if self.key_8 == "LAB 3":
+                self.Pigment_LAB_3_Plus()
+            # LCH
+            if self.key_8 == "LCH 1":
+                self.Pigment_LCH_1_Plus()
+            if self.key_8 == "LCH 2":
+                self.Pigment_LCH_2_Plus()
+            if self.key_8 == "LCH 3":
+                self.Pigment_LCH_3_Plus()
+
+        if SIGNAL_KEY == "K9 Minus":
+            # None
+            if self.key_9 == "KEY 9":
+                pass
+            # AAA
+            if self.key_9 == "A 1":
+                self.Pigment_AAA_1_Minus()
+            # RGB
+            if self.key_9 == "RGB 1":
+                self.Pigment_RGB_1_Minus()
+            if self.key_9 == "RGB 2":
+                self.Pigment_RGB_2_Minus()
+            if self.key_9 == "RGB 3":
+                self.Pigment_RGB_3_Minus()
+            # CMY
+            if self.key_9 == "CMY 1":
+                self.Pigment_CMY_1_Minus()
+            if self.key_9 == "CMY 2":
+                self.Pigment_CMY_2_Minus()
+            if self.key_9 == "CMY 3":
+                self.Pigment_CMY_3_Minus()
+            # CMYK
+            if self.key_9 == "CMYK 1":
+                self.Pigment_CMYK_1_Minus()
+            if self.key_9 == "CMYK 2":
+                self.Pigment_CMYK_2_Minus()
+            if self.key_9 == "CMYK 3":
+                self.Pigment_CMYK_3_Minus()
+            if self.key_9 == "CMYK 4":
+                self.Pigment_CMYK_4_Minus()
+            # RYB
+            if self.key_9 == "RYB 1":
+                self.Pigment_RYB_1_Minus()
+            if self.key_9 == "RYB 2":
+                self.Pigment_RYB_2_Minus()
+            if self.key_9 == "RYB 3":
+                self.Pigment_RYB_3_Minus()
+            # YUV
+            if self.key_9 == "YUV 1":
+                self.Pigment_YUV_1_Minus()
+            if self.key_9 == "YUV 2":
+                self.Pigment_YUV_2_Minus()
+            if self.key_9 == "YUV 3":
+                self.Pigment_YUV_3_Minus()
+            # KKK
+            if self.key_9 == "K 1":
+                self.Pigment_KKK_1_Minus()
+
+            # ARD
+            if self.key_9 == "ARD 1":
+                self.Pigment_ARD_1_Minus()
+            if self.key_9 == "ARD 2":
+                self.Pigment_ARD_2_Minus()
+            if self.key_9 == "ARD 3":
+                self.Pigment_ARD_3_Minus()
+            # HSV
+            if self.key_9 == "HSV 1":
+                self.Pigment_HSV_1_Minus()
+            if self.key_9 == "HSV 2":
+                self.Pigment_HSV_2_Minus()
+            if self.key_9 == "HSV 3":
+                self.Pigment_HSV_3_Minus()
+            # HSL
+            if self.key_9 == "HSL 1":
+                self.Pigment_HSL_1_Minus()
+            if self.key_9 == "HSL 2":
+                self.Pigment_HSL_2_Minus()
+            if self.key_9 == "HSL 3":
+                self.Pigment_HSL_3_Minus()
+            # HCY
+            if self.key_9 == "HCY 1":
+                self.Pigment_HCY_1_Minus()
+            if self.key_9 == "HCY 2":
+                self.Pigment_HCY_2_Minus()
+            if self.key_9 == "HCY 3":
+                self.Pigment_HCY_3_Minus()
+
+            # XYZ
+            if self.key_9 == "XYZ 1":
+                self.Pigment_XYZ_1_Minus()
+            if self.key_9 == "XYZ 2":
+                self.Pigment_XYZ_2_Minus()
+            if self.key_9 == "XYZ 3":
+                self.Pigment_XYZ_3_Minus()
+            # XYY
+            if self.key_9 == "XYY 1":
+                self.Pigment_XYY_1_Minus()
+            if self.key_9 == "XYY 2":
+                self.Pigment_XYY_2_Minus()
+            if self.key_9 == "XYY 3":
+                self.Pigment_XYY_3_Minus()
+            # LUV
+            if self.key_9 == "LUV 1":
+                self.Pigment_LUV_1_Minus()
+            if self.key_9 == "LUV 2":
+                self.Pigment_LUV_2_Minus()
+            if self.key_9 == "LUV 3":
+                self.Pigment_LUV_3_Minus()
+            # HLAB
+            if self.key_9 == "HLAB 1":
+                self.Pigment_HLAB_1_Minus()
+            if self.key_9 == "HLAB 2":
+                self.Pigment_HLAB_2_Minus()
+            if self.key_9 == "HLAB 3":
+                self.Pigment_HLAB_3_Minus()
+            # LAB
+            if self.key_9 == "LAB 1":
+                self.Pigment_LAB_1_Minus()
+            if self.key_9 == "LAB 2":
+                self.Pigment_LAB_2_Minus()
+            if self.key_9 == "LAB 3":
+                self.Pigment_LAB_3_Minus()
+            # LCH
+            if self.key_9 == "LCH 1":
+                self.Pigment_LCH_1_Minus()
+            if self.key_9 == "LCH 2":
+                self.Pigment_LCH_2_Minus()
+            if self.key_9 == "LCH 3":
+                self.Pigment_LCH_3_Minus()
+        if SIGNAL_KEY == "K9 Plus":
+            # None
+            if self.key_9 == "KEY 9":
+                pass
+            # AAA
+            if self.key_9 == "A 1":
+                self.Pigment_AAA_1_Plus()
+            # RGB
+            if self.key_9 == "RGB 1":
+                self.Pigment_RGB_1_Plus()
+            if self.key_9 == "RGB 2":
+                self.Pigment_RGB_2_Plus()
+            if self.key_9 == "RGB 3":
+                self.Pigment_RGB_3_Plus()
+            # CMY
+            if self.key_9 == "CMY 1":
+                self.Pigment_CMY_1_Plus()
+            if self.key_9 == "CMY 2":
+                self.Pigment_CMY_2_Plus()
+            if self.key_9 == "CMY 3":
+                self.Pigment_CMY_3_Plus()
+            # CMYK
+            if self.key_9 == "CMYK 1":
+                self.Pigment_CMYK_1_Plus()
+            if self.key_9 == "CMYK 2":
+                self.Pigment_CMYK_2_Plus()
+            if self.key_9 == "CMYK 3":
+                self.Pigment_CMYK_3_Plus()
+            if self.key_9 == "CMYK 4":
+                self.Pigment_CMYK_4_Plus()
+            # RYB
+            if self.key_9 == "RYB 1":
+                self.Pigment_RYB_1_Plus()
+            if self.key_9 == "RYB 2":
+                self.Pigment_RYB_2_Plus()
+            if self.key_9 == "RYB 3":
+                self.Pigment_RYB_3_Plus()
+            # YUV
+            if self.key_9 == "YUV 1":
+                self.Pigment_YUV_1_Plus()
+            if self.key_9 == "YUV 2":
+                self.Pigment_YUV_2_Plus()
+            if self.key_9 == "YUV 3":
+                self.Pigment_YUV_3_Plus()
+            # KKK
+            if self.key_9 == "K 1":
+                self.Pigment_KKK_1_Plus()
+
+            # ARD
+            if self.key_9 == "ARD 1":
+                self.Pigment_ARD_1_Plus()
+            if self.key_9 == "ARD 2":
+                self.Pigment_ARD_2_Plus()
+            if self.key_9 == "ARD 3":
+                self.Pigment_ARD_3_Plus()
+            # HSV
+            if self.key_9 == "HSV 1":
+                self.Pigment_HSV_1_Plus()
+            if self.key_9 == "HSV 2":
+                self.Pigment_HSV_2_Plus()
+            if self.key_9 == "HSV 3":
+                self.Pigment_HSV_3_Plus()
+            # HSL
+            if self.key_9 == "HSL 1":
+                self.Pigment_HSL_1_Plus()
+            if self.key_9 == "HSL 2":
+                self.Pigment_HSL_2_Plus()
+            if self.key_9 == "HSL 3":
+                self.Pigment_HSL_3_Plus()
+            # HCY
+            if self.key_9 == "HCY 1":
+                self.Pigment_HCY_1_Plus()
+            if self.key_9 == "HCY 2":
+                self.Pigment_HCY_2_Plus()
+            if self.key_9 == "HCY 3":
+                self.Pigment_HCY_3_Plus()
+
+            # XYZ
+            if self.key_9 == "XYZ 1":
+                self.Pigment_XYZ_1_Plus()
+            if self.key_9 == "XYZ 2":
+                self.Pigment_XYZ_2_Plus()
+            if self.key_9 == "XYZ 3":
+                self.Pigment_XYZ_3_Plus()
+            # XYY
+            if self.key_9 == "XYY 1":
+                self.Pigment_XYY_1_Plus()
+            if self.key_9 == "XYY 2":
+                self.Pigment_XYY_2_Plus()
+            if self.key_9 == "XYY 3":
+                self.Pigment_XYY_3_Plus()
+            # LUV
+            if self.key_9 == "LUV 1":
+                self.Pigment_LUV_1_Plus()
+            if self.key_9 == "LUV 2":
+                self.Pigment_LUV_2_Plus()
+            if self.key_9 == "LUV 3":
+                self.Pigment_LUV_3_Plus()
+            # HLAB
+            if self.key_9 == "HLAB 1":
+                self.Pigment_HLAB_1_Plus()
+            if self.key_9 == "HLAB 2":
+                self.Pigment_HLAB_2_Plus()
+            if self.key_9 == "HLAB 3":
+                self.Pigment_HLAB_3_Plus()
+            # LAB
+            if self.key_9 == "LAB 1":
+                self.Pigment_LAB_1_Plus()
+            if self.key_9 == "LAB 2":
+                self.Pigment_LAB_2_Plus()
+            if self.key_9 == "LAB 3":
+                self.Pigment_LAB_3_Plus()
+            # LCH
+            if self.key_9 == "LCH 1":
+                self.Pigment_LCH_1_Plus()
+            if self.key_9 == "LCH 2":
+                self.Pigment_LCH_2_Plus()
+            if self.key_9 == "LCH 3":
+                self.Pigment_LCH_3_Plus()
+
     def Signal_Extension_LOK(self, SIGNAL_LOK):
         if SIGNAL_LOK == "CMYK":
             if self.layout.cmyk_4_lock.isChecked():
@@ -23644,6 +24855,11 @@ class PigmentO_Docker(DockWidget):
         self.key_2 = "KEY 2"
         self.key_3 = "KEY 3"
         self.key_4 = "KEY 4"
+        self.key_5 = "KEY 5"
+        self.key_6 = "KEY 6"
+        self.key_7 = "KEY 7"
+        self.key_8 = "KEY 8"
+        self.key_9 = "KEY 9"
 
         #//
         # Last To Load
@@ -23754,6 +24970,11 @@ class PigmentO_Docker(DockWidget):
         self.dialog.key_2.setCurrentIndex(0)
         self.dialog.key_3.setCurrentIndex(0)
         self.dialog.key_4.setCurrentIndex(0)
+        self.dialog.key_5.setCurrentIndex(0)
+        self.dialog.key_6.setCurrentIndex(0)
+        self.dialog.key_7.setCurrentIndex(0)
+        self.dialog.key_8.setCurrentIndex(0)
+        self.dialog.key_9.setCurrentIndex(0)
         self.dialog.display_values.setChecked(False)
         self.dialog.display_hex.setChecked(False)
         self.dialog.hue_shine.setChecked(False)
@@ -23837,6 +25058,11 @@ class PigmentO_Docker(DockWidget):
             self.dialog.key_2.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_2", "")) )
             self.dialog.key_3.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_3", "")) )
             self.dialog.key_4.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_4", "")) )
+            self.dialog.key_5.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_5", "")) )
+            self.dialog.key_6.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_6", "")) )
+            self.dialog.key_7.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_7", "")) )
+            self.dialog.key_8.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_8", "")) )
+            self.dialog.key_9.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_key_9", "")) )
             self.dialog.mix_index.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_mix_index", "")) )
             self.dialog.names_closest.setChecked( eval(Krita.instance().readSetting("Pigment.O", "ui_names_closest", "")) )
             self.dialog.wheel_index.setCurrentIndex( eval(Krita.instance().readSetting("Pigment.O", "ui_wheel_index", "")) )
@@ -23901,6 +25127,11 @@ class PigmentO_Docker(DockWidget):
         Krita.instance().writeSetting("Pigment.O", "ui_key_2", str(self.dialog.key_2.currentIndex()) )
         Krita.instance().writeSetting("Pigment.O", "ui_key_3", str(self.dialog.key_3.currentIndex()) )
         Krita.instance().writeSetting("Pigment.O", "ui_key_4", str(self.dialog.key_4.currentIndex()) )
+        Krita.instance().writeSetting("Pigment.O", "ui_key_5", str(self.dialog.key_5.currentIndex()) )
+        Krita.instance().writeSetting("Pigment.O", "ui_key_6", str(self.dialog.key_6.currentIndex()) )
+        Krita.instance().writeSetting("Pigment.O", "ui_key_7", str(self.dialog.key_7.currentIndex()) )
+        Krita.instance().writeSetting("Pigment.O", "ui_key_8", str(self.dialog.key_8.currentIndex()) )
+        Krita.instance().writeSetting("Pigment.O", "ui_key_9", str(self.dialog.key_9.currentIndex()) )
         Krita.instance().writeSetting("Pigment.O", "ui_mix_index", str(self.dialog.mix_index.currentIndex()) )
         Krita.instance().writeSetting("Pigment.O", "ui_names_closest", str(self.dialog.names_closest.isChecked()) )
         Krita.instance().writeSetting("Pigment.O", "ui_wheel_index", str(self.dialog.wheel_index.currentIndex()) )

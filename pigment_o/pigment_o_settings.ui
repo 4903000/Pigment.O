@@ -2953,7 +2953,1058 @@
              </property>
             </item>
            </widget>
+         </item>
+          <item>
+           <widget class="QComboBox" name="key_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>KEY 5</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>A 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>K 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 3</string>
+             </property>
+            </item>
+           </widget>
           </item>
+          <item>
+           <widget class="QComboBox" name="key_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>KEY 6</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>A 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>K 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="key_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>KEY 7</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>A 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>K 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="key_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>KEY 8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>A 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>K 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="key_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <item>
+             <property name="text">
+              <string>KEY 9</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>A 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RGB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>CMYK 4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RYB 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>YUV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>K 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ARD 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSV 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HSL 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HCY 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XYZ 3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>LAB 3</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+
          </layout>
         </item>
         <item row="3" column="0">

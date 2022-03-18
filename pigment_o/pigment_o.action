@@ -105,6 +105,63 @@
           <isCheckable>false</isCheckable>
         </Action>
 
+
+        <Action name="pykrita_pigment_o_extension_key_5_minus">
+          <text>P. K5 Minus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+        <Action name="pykrita_pigment_o_extension_key_5_plus">
+          <text>P. K5 Plus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+
+        <Action name="pykrita_pigment_o_extension_key_6_minus">
+          <text>P. K6 Minus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+        <Action name="pykrita_pigment_o_extension_key_6_plus">
+          <text>P. K6 Plus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+
+        <Action name="pykrita_pigment_o_extension_key_7_minus">
+          <text>P. K7 Minus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+        <Action name="pykrita_pigment_o_extension_key_7_plus">
+          <text>P. K7 Plus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+
+        <Action name="pykrita_pigment_o_extension_key_8_minus">
+          <text>P. K8 Minus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+        <Action name="pykrita_pigment_o_extension_key_8_plus">
+          <text>P. K8 Plus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+
+        <Action name="pykrita_pigment_o_extension_key_9_minus">
+          <text>P. K9 Minus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+        <Action name="pykrita_pigment_o_extension_key_9_plus">
+          <text>P. K9 Plus</text>
+          <shortcut>none</shortcut>
+          <isCheckable>false</isCheckable>
+        </Action>
+
+
         <Action name="pykrita_pigment_o_extension_lock_cmyk">
           <text>P. Lock CMYK</text>
           <shortcut>none</shortcut>
